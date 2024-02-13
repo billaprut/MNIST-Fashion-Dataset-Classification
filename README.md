@@ -8,4 +8,4 @@ To prepare the data for the neural network, I scaled the pixel values to a range
 
 The core of my project was building the neural network model. It consisted of three layers: a Flatten layer to transform the images into a one-dimensional array, a Dense layer with 128 neurons and ReLU activation, and another Dense layer with 10 neurons, corresponding to the 10 classes of fashion items, using softmax activation. After compiling the model with the Adam optimizer and sparse categorical crossentropy as the loss function, I trained it for 5 epochs.
 
-The model achieved an impressive 88% accuracy on the training data. To evaluate its performance, I used the test dataset, where the model demonstrated a commendable accuracy of 87.12%.
+The model achieved an impressive 88% accuracy on the training data. To evaluate its performance, I used the test dataset, where the model demonstrated a commendable accuracy of 87.12%. After optimization, it increased to 90%.
